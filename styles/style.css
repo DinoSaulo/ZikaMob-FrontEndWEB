@@ -63,3 +63,78 @@ li a:hover:not(.active) {
     display: inline-block;
     cursor: pointer;
 }
+
+.content-home {
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.title-home {
+    color: rgb(53, 44, 123);
+    font-size: 100px;
+    padding: 0px;
+}
+
+
+.text-home {
+    width: 460px;
+    color: rgb(128, 128, 128);
+}
+
+.buttons-home {
+    padding-top: 40px;
+    width: 460px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.buttons-home > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+.button-entrar {
+    padding: 15px 55px;
+    background-color: #4c37a8;
+    color: aliceblue;
+    border: 2px solid #4c37a8;
+} 
+
+.button-entrar:hover  {
+    background-color: aliceblue;
+    color: #4c37a8;
+    border: 2px solid #4c37a8;
+}
+
+.button-cadastrar {
+    background-color: aliceblue;
+    color: #4c37a8;
+    border: 2px solid #4c37a8;
+} 
+
+.button-cadastrar:hover  {
+    background-color: #4c37a8;
+    color: aliceblue;
+    border: 2px solid #4c37a8;
+}
+
+.or-home {
+    padding-top: 20px;
+    color: rgb(128, 128, 128);
+}
