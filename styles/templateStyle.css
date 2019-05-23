@@ -98,11 +98,68 @@ select{
 }
 
 .boddy-user {
-    background-color: #4c37a8;
 }
 
+.boddy-adm {
+    height: 750px;
+}
 
+.title-boddy-adm{
+    font-size: 40px;
+    color: rgb(53, 155, 102);
+    margin-left: 70px;
+    padding-bottom: 80px;
+}
 
+.boddy-adm-options  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boddy-adm-option {
+    height: 300px;
+    width: 300px; 
+    margin: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s background-color;
+    background-color: white;
+}
+
+.boddy-adm-option:hover {
+    transition: 0.5s background-color;
+    background-color: rgb(53, 155, 102);
+    transition: 0.5s background-image;
+    background-image: url("../images/icons/user-hover.svg");
+}
+
+.prof-ou-dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.escola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desafios-e-atividades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-button {
+    font-size: 28px;
+    margin-top: 15px;
+    color: rgb(53, 155, 102);
+}
 
 .content-professor {
     display: flex;
