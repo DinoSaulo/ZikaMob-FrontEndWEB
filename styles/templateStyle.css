@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
+    overflow: hidden;
 }
 
 body {
@@ -95,3 +96,60 @@ select{
     display: inline-block;
     cursor: pointer;
 }
+
+.boddy-user {
+    background-color: #4c37a8;
+}
+
+
+
+
+.content-professor {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.opition-bar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgb(247,247,247);
+    width: 460px;
+    height: 900px;
+    
+}
+
+.cross-opition-bar {
+    width: 60px;
+    background-color: rgb(53, 165, 144);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+
+  .li-div {
+    display: block;
+    color: rgb(123, 158, 151);
+    padding: 16px 16px;
+    text-decoration: none;
+    background-color: rgb(55, 117, 105);
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
