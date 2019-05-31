@@ -204,9 +204,23 @@ ul {
     text-decoration: none;
     background-color: rgb(55, 117, 105);
   }
-  
+
   /* Change the link color on hover */
   li a:hover {
     background-color: #555;
     color: white;
   }
+
+.boddy-prof-options  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box-alunos {
+    width: 92%;
+    height: 500px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
