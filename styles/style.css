@@ -1,11 +1,11 @@
 body {
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 22px;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
 }
 
 body {
-    background-image: url("https://i.imgur.com/8ow1AaN.png");
+    background-image: url("../images/fundo_cortado.png");
     background-color: #cccccc;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,7 +20,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0);
-    
     vertical-align: middle;
 }
 
@@ -32,10 +31,11 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    margin-right: 125px;
-    padding: 14px 20px;
+    margin-right: 1rem;
+    padding: 0.3rem 0.7rem;
     text-decoration: none;
     border-radius: 3px;
+    font-size: 1rem;
 }
 
 li a:hover:not(.active) {
@@ -43,41 +43,45 @@ li a:hover:not(.active) {
     color: #4c37a8;
 }
 
-.active {
-
-}
+.active {}
 
 .navbar {
-    padding-top: 40px;
-    padding-left: 36%;
+    background-image: url("../images/icons/background_nav.svg");
+    padding-top: 1.7rem;
+    padding-left: 27rem;
+    padding-bottom: 1.7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btn-login {
-    width: 145px;
+    width: 6rem;
     background-color: #4c37a8;
     border: none;
     color: white;
-    padding: 14px 5px;
+    padding: 0.3rem 0.7rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    border-radius: 10rem;
+    margin-left: 3rem;
 }
 
 .content-home {
-    margin-top: 250px;
-    margin-left: 200px;
+    margin-top: 10rem;
+    margin-left: 10rem;
 }
 
 .title-home {
     color: rgb(53, 44, 123);
-    font-size: 100px;
+    font-size: 3.5rem;
     padding: 0px;
 }
 
-
 .text-home {
-    width: 460px;
+    width: 22rem;
+    font-size: 1rem;
     color: rgb(128, 128, 128);
 }
 
@@ -87,15 +91,15 @@ li a:hover:not(.active) {
     position: absolute;
     display: flex;
     justify-content: space-around;
-  }
-  
-.buttons-home > div {
+}
+
+.buttons-home>div {
     width: 100px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
+}
 
 .button {
     border: none;
@@ -107,16 +111,16 @@ li a:hover:not(.active) {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50px;
-  }
+}
 
 .button-entrar {
     padding: 15px 55px;
     background-color: #4c37a8;
     color: aliceblue;
     border: 2px solid #4c37a8;
-} 
+}
 
-.button-entrar:hover  {
+.button-entrar:hover {
     background-color: aliceblue;
     color: #4c37a8;
     border: 2px solid #4c37a8;
@@ -126,9 +130,9 @@ li a:hover:not(.active) {
     background-color: aliceblue;
     color: #4c37a8;
     border: 2px solid #4c37a8;
-} 
+}
 
-.button-cadastrar:hover  {
+.button-cadastrar:hover {
     background-color: #4c37a8;
     color: aliceblue;
     border: 2px solid #4c37a8;

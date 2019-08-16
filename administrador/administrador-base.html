@@ -9,10 +9,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Zika Mob</title>
+    <title>ArboEdu</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../styles/templateStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/administrador.js"></script>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
         <![endif]-->
     <div class="navbar">
         <div style="flex-grow: 2; align-self: center">
-            <a href="#home"> <img src="../images/logo_horizontal.png" height="250"> </a>
+            <a href="#home"> <img src="../images/icons/Ativo36.svg" height="80"> </a>
         </div>
         <div style="flex-grow: 1; align-self: center"><a href="#home">Home</a></div>
         <div style="flex-grow: 1; align-self: center"><a href="#sobre-nos">Sobre nós</a></div>
@@ -43,14 +45,56 @@
             </div>
             <ul>
                 <div class="li-div"><a href="#" style="color:#7b9e97"><i>Administrador</i></a></div>
-                <li><a href="administrador-adicionarComponentes.html">Adicionar Componentes</a></li>
-                <li><a href="administrador-editarComponentes.html">Editar Componentes</a></li>
-                <li><a href="administrador-aprovarComponentes.html">Aprovar Componentes</a></li>
-                <li><a href="administrador-consultarRanking.html">Consultar Ranking</a></li>
-                <li><a href="administrador-removerComponentes.html">Remover Componentes</a></li>
+                <li><a class="btn-adicionar-componentes">Adicionar Componentes</a></li>
+                <li><a class="btn-editar-componentes">Editar Componentes</a></li>
+                <li><a class="btn-aprovar-componentes">Aprovar Componentes</a></li>
+                <li><a class="btn-consultar-ranking">Consultar Ranking</a></li>
+                <li><a class="btn-remover-componentes">Remover Componentes</a></li>
             </ul>
         </div>
         <div style="flex-grow: 130; align-self: center" class="boddy-user">
+
+            <div class="adicionar-componentes">
+                <p>Adicionar Componentes</p>
+            </div>
+
+            <div class="editar-componentes">
+                <div class="title-boddy-adm">Indique o que deseja editar: </div>
+                <div class="boddy-adm-options">
+                    <div class="prof-ou-dir">
+                        <a href="#" class="boddy-adm-option">
+                            <img src="../images/icons/user.svg" alt="" width="220" style="margin: 40px;">
+                        </a>
+                        <div class="title-button">Professor ou Diretor</div>
+                    </div>
+                    <div class="escola">
+                        <a class="boddy-adm-option" href="#">
+                            <img src="../images/icons/user.svg" alt="" width="220" style="margin: 40px;">
+                        </a>
+                        <div class="title-button">Escola</div>
+                    </div>
+                    <div class="desafios-e-atividades">
+                        <a href="#" class="boddy-adm-option">
+                            <img src="../images/icons/user.svg" alt="" width="220" style="margin: 40px;">
+                        </a>
+                        <div class="title-button">Desafios e Atividades</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="aprovar-componentes">
+                <p>Aprovar Componentes</p>
+            </div>
+
+            <div class="consultar-ranking">
+                <p>Consultar Ranking</p>
+            </div>
+
+            <div class="remover-componentes">
+                <p>Remover Componentes</p>
+            </div>
+
         </div>
     </div>
     <script src="" async defer></script>
